@@ -3,8 +3,8 @@
 # 联系方式：mankelu5@gmail.com（邮箱）
 # 使用需要修改下面的username和password，另外会生成两个临时文件，请确保你有文件夹写权限
 
-username=""
-password=""
+username="这里写账号"
+password="这里写密码"
 curl 'https://u.njtech.edu.cn/cas/login?service=https://u.njtech.edu.cn/oauth2/authorize?client_id=Oe7wtp9CAMW0FVygUasZ&response_type=code&state=njtech' -c "cookie" -H 'Accept: */*' -H 'Accept-Language: zh-cn' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Connection: keep-alive' > tmp
 LT=$(grep "\"lt\"" tmp | head -n 1 | awk -F \" '{print $6}')
 EXEC=$(grep "name=\"execution\"" tmp |head -n 1 | awk -F \" '{print $ 6}')
