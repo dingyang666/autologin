@@ -31,5 +31,5 @@ vi wifiautologin.py #请在这一步手动设置账号密码和运营商
 
 mv wifiautologin.py /etc/
 
-echo 'python3 /etc/wifiautologin.sh &' >> /etc/profile #登陆后自动后台运行
+echo 'python3 /etc/wifiautologin.py &' >> /etc/profile #登陆后自动后台运行
 ```
