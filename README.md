@@ -4,3 +4,15 @@
 * 其中sh版可直接在mac，linux（包括安卓手机和路由器）上运行，但不能在windows下直接运行。
 * 目前只有基本功能登陆，需要修改里面的账号密码，后续会加入其他功能。
 * 默认中国移动，电信请自己修改
+ 
+'''shell
+git clone https://github.com/dingyang666/autologin.git
+
+cd autologin
+
+mv wifiautologin.sh /etc/
+
+chmod 755 /etc/wifiautologin.sh
+
+echo 'nohup /etc/wifiautologin.sh &' >> /etc/profile
+'''
