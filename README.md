@@ -8,7 +8,7 @@
 # 添加登录启动功能
  
 ```shell
-git clone https://github.com/dingyang666/autologin.git #下载文件到您到电脑
+git clone https://github.com/dingyang666/autologin.git #下载脚本到您到设备
 
 cd autologin
 
@@ -18,5 +18,5 @@ mv wifiautologin.sh /etc/
 
 chmod 755 /etc/wifiautologin.sh
 
-echo 'nohup /etc/wifiautologin.sh &' >> /etc/profile #加入登陆后自动后台运行
+echo 'nohup /etc/wifiautologin.sh &' >> /etc/profile #登陆后自动后台运行
 ```
