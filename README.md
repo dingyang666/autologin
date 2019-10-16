@@ -7,7 +7,7 @@
 
 # 添加登录启动功能
  
- 1. shell
+ 1. sh
 ```shell
 git clone https://github.com/dingyang666/autologin.git #下载脚本到您的设备
 
@@ -21,7 +21,7 @@ chmod 755 /etc/wifiautologin.sh
 
 echo 'nohup /etc/wifiautologin.sh &' >> /etc/profile #登陆后自动后台运行
 ```
- 2. python
+ 2. sh
 ```python
 git clone https://github.com/dingyang666/autologin.git #下载脚本到您的设备
 
