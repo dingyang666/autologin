@@ -5,7 +5,7 @@
 * 目前只有基本功能登陆，需要修改里面的账号密码，后续会加入其他功能。
 * 默认中国移动，电信请自己修改
  
-'''shell
+```shell
 git clone https://github.com/dingyang666/autologin.git
 
 cd autologin
@@ -15,4 +15,4 @@ mv wifiautologin.sh /etc/
 chmod 755 /etc/wifiautologin.sh
 
 echo 'nohup /etc/wifiautologin.sh &' >> /etc/profile
-'''
+```
